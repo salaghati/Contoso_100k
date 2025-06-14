@@ -1,34 +1,34 @@
 <<<<<<< HEAD
 # SQL Data Analytics Portfolio - Contoso Retail Dataset
 
-## 📊 Project Overview
+## Project Overview
 Comprehensive SQL data analysis project using PostgreSQL and the Contoso 100K retail dataset. This project demonstrates advanced SQL techniques for business intelligence and data analytics.
 
-## 🎯 Key Features
+##  Key Features
 - **Customer Segmentation**: Percentile-based classification (Low/Medium/High tiers)
 - **Revenue Analysis**: Daily trends and contribution analysis
 - **Advanced SQL**: CTEs, Window Functions, Complex JOINs
 - **Data Processing**: 100K+ records across 6 normalized tables
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Database**: PostgreSQL 17
 - **Tools**: pgAdmin, Terminal
 - **Dataset**: Contoso 100K (Sales, Customer, Product, Store, Date, Currency)
 
-## 📈 Business Insights
+## Business Insights
 - Customer tier analysis using 25th, 50th, 75th percentiles
 - Revenue performance tracking with running totals
 - Product and store performance metrics
 - Time-series analysis with date functions
 
-## 🚀 Key SQL Techniques Demonstrated
+## Key SQL Techniques Demonstrated
 - Multi-table JOINs across normalized schema
 - Common Table Expressions (CTEs) for complex transformations
 - Window Functions (ROW_NUMBER, SUM OVER, AVG OVER)
 - Percentile functions for statistical analysis
 - Date manipulation and formatting
 
-## 📁 Project Structure
+## Project Structure
 ```
 ├── queries/
 │   ├── customer_segmentation.sql
@@ -41,12 +41,12 @@ Comprehensive SQL data analysis project using PostgreSQL and the Contoso 100K re
     └── sample_outputs.md
 ```
 
-## 🔧 Setup Instructions
+## Setup Instructions
 1. Install PostgreSQL 17
 2. Import Contoso 100K dataset
 3. Run queries in sequential order
 
-## 📊 Sample Results
+## Sample Results
 See `results/sample_outputs.md` for query outputs and insights.
 
 ---
