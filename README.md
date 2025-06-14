@@ -10,7 +10,7 @@ Comprehensive SQL data analysis project using PostgreSQL and the Contoso 100K re
 - **Advanced SQL**: CTEs, Window Functions, Complex JOINs
 - **Data Processing**: 100K+ records across 6 normalized tables
 
-## 🛠Tech Stack
+## Tech Stack
 - **Database**: PostgreSQL 17
 - **Tools**: pgAdmin, Terminal
 - **Dataset**: Contoso 100K (Sales, Customer, Product, Store, Date, Currency)
