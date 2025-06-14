@@ -1,0 +1,2 @@
+-- Advanced Analytics with CTEs and Window Functions
+WITH customer_metrics AS (SELECT c.customerkey, COUNT(*) AS total_orders, SUM(s.quantity * s.netprice * ce.exchangerate) AS total_revenue FROM sales s JOIN customer c ON s.customerkey = c.customerkey JOIN currencyexchange ce ON s.currencykey = ce.currencykey GROUP BY c.customerkey) SELECT customerkey, total_orders, total_revenue FROM customer_metrics ORDER BY total_revenue DESC LIMIT 50;
