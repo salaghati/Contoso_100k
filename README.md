@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SQL Data Analytics Portfolio - Contoso Retail Dataset
 
 ## 📊 Project Overview
@@ -50,3 +51,6 @@ See `results/sample_outputs.md` for query outputs and insights.
 
 ---
 *This project showcases practical SQL skills for data analytics and business intelligence applications.* 
+=======
+# Contoso_100k
+>>>>>>> 16caedf13429cc71ab7b2e9637cd596c0513bdf4
